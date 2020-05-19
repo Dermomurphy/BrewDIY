@@ -1,7 +1,7 @@
 var data;
 
 async function getData() {
-  var response = await fetch("../../Data/sierraNevada.json");
+  var response = await fetch("Data/sierraNevada.json");
   data = await response.json();
   return data;
 }
