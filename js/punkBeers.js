@@ -1,7 +1,7 @@
 var data;
 
 async function getData() {
-  var response = await fetch("Data/brewdogData.json");
+  var response = await fetch("./js/Data/brewdogData.json");
   data = await response.json();
   return data;
 }
