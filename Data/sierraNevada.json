@@ -1,0 +1,120 @@
+[{
+      "id": 1000,
+      "name": "Sierra Nevada Pale Ale",
+      "tagline": "Your Favourite Brewers favourite beer",
+      "first_brewed": "1980",
+      "description": "Heavy on hops, that was always the brewery plan. So in 1980, we loaded Pale Ale up with Cascade—a new hop at the time named after the mountain range—and the intense aromas of pine and citrus sparked the American craft beer revolution.",
+      "image_url": "https://sierranevada.com/wp-content/uploads/2018/10/Pale-Ale-Can.png",
+      "abv": 5.6,
+      "ibu": 38,
+      "target_fg": 1010,
+      "target_og": 1011,
+      "ebc": null,
+      "srm": null,
+      "ph": null,
+      "attenuation_level": null,
+      "volume": {
+        "value": 20,
+        "unit": "litres"
+      },
+      "boil_volume": {
+        "value": 25,
+        "unit": "litres"
+      },
+      "method": {
+        "mash_temp": [
+          {
+            "temp": {
+              "value": 68.33,
+              "unit": "celsius"
+            },
+            "duration": 60
+          },
+          {
+            "temp": {
+              "value": 76.66,
+              "unit": "celsius"
+            },
+            "duration": 5
+          },
+          {
+            "temp": {
+              "value": 68,
+              "unit": "celsius"
+            },
+            "duration": 25
+          }
+        ],
+        "fermentation": {
+          "temp": {
+            "value": 20,
+            "unit": "celsius"
+          }
+        },
+        "twist": null
+      },
+      "ingredients": {
+        "malt": [
+          {
+            "name": "Two-Row Pale",
+            "amount": {
+              "value": 4.6,
+              "unit": "kilograms"
+            }
+          },
+          {
+            "name": "Caramalt",
+            "amount": {
+              "value": 0.4,
+              "unit": "kilograms"
+            }
+          }
+        ],
+        "hops": [
+          {
+            "name": "Cascade",
+            "amount": {
+              "value": 15,
+              "unit": "grams"
+            },
+            "add": "90min - Start",
+            "attribute": "flavour"
+          },
+          {
+            "name": "Cascade",
+            "amount": {
+              "value": 21,
+              "unit": "grams"
+            },
+            "add": "60min -Mid",
+            "attribute": "flavour"
+          },
+          {
+            "name": "Cascade",
+            "amount": {
+              "value": 56,
+              "unit": "grams"
+            },
+            "add": "30 Min",
+            "attribute": "flavour"
+          },
+          {
+            "name": "Cascade",
+            "amount": {
+              "value": 56,
+              "unit": "grams"
+            },
+            "add": "0min end- Flame Out",
+            "attribute": "flavour"
+          }
+        ],
+        "yeast": "California ale yeast, AKA Chico ale yeast"
+      },
+      "food_pairing": [
+        "Spicy chicken tikka masala",
+        "Grilled chicken quesadilla",
+        "Pale Ale Bratwurst"
+      ],
+      "brewers_tips": "Run off wort and sparge with water hot enough to keep the grain bed around 76 DegC. Crack open a Pale Ale!",
+      "contributed_by": "Dermot Murphy"
+    }]
