@@ -3,6 +3,7 @@
 
 html {
     scroll-behavior: smooth;
+    
   }
 
   
@@ -153,18 +154,18 @@ em{
 
 }
 .scrollable-menu {
+    overflow-y: scroll;
     height: auto;
     max-height: 150px;
+    max-width: 350px;
     background-color: blanchedalmond;
     overflow-x: hidden;
     z-index: 4;
 }
 
+
 /*---- Donation Container----*/
 .crypto-donation, .donate-with-crypto, .kofi-donation {
     z-index: 1;
-}
-.jhHHdA {
-    color:#000;
 }
 
