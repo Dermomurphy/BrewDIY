@@ -80,7 +80,7 @@ function foodTemplate(food) {
 
 function beerTemplate(beer) {
   return `
-    <div class="card beer col-sm-3">
+    <div class="card beer col">
   <img src="${beer.image_url}" class="card-img-top beer-photo" id="${beer.name}" alt="beer-image">
   <div class="card-body">
     <h3 class="card-title">${beer.name}</h3>
