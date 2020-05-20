@@ -1,10 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,600,800&display=swap");
 
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  
+
 h1,h2,h3,h4,h5,h6{
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
 
 }
+
 
 p{
     font-family: 'Lato',sans-serif;
@@ -61,7 +69,7 @@ h2 {
     background-size: cover;
     background-position: center;
     backdrop-filter: opacity(50%);
-    color: #ffffff;
+    color: #fafafa;
     text-align: center;
     z-index: 2;
 
@@ -78,7 +86,7 @@ h2 {
     background-size: cover;
     background-position: center;
     backdrop-filter: opacity(80%);
-    color: #ffffff;
+    color: #fafafa;
     text-align: center;
     z-index: 2;
 
@@ -142,13 +150,19 @@ em{
 .beer-menu{
     padding-top: 20px;
     margin-top: 20px;
+    z-index: 4;
 
 }
 .scrollable-menu {
     height: auto;
-    max-height: 200px;
+    max-height: 150px;
     background-color: blanchedalmond;
     overflow-x: hidden;
+    z-index: 4;
+}
+
+/*---- Donation Container----*/
+.crypto-donation, .donate-with-crypto, .kofi-donation {
     z-index: 1;
 }
 
