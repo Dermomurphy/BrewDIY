@@ -76,7 +76,14 @@ h2 {
 }
 
 .btn-lg {
+    color:#fafafa;
     margin-bottom: 1.2em;
+    background-color: rgba(34, 116, 165,0.7);
+}
+
+.btn-lg:hover{
+    color:#ffffff;
+    background-color: rgba(34, 116, 165);
 }
 
 /*--- Sierra Nevada Jumbotron ---*/
