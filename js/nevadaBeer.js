@@ -81,7 +81,9 @@ function foodTemplate(food) {
 function beerTemplate(beer) {
   return `
     <div class="card beer col">
-  <img src="${beer.image_url}" class="card-img-top beer-photo" id="${beer.name}" alt="beer-image">
+  <img src="${beer.image_url}" class="card-img-top beer-photo" id="${
+    beer.name
+  }" alt="beer-image">
   <div class="card-body">
     <h3 class="card-title">${beer.name}</h3>
     <h4>ABV: ${beer.abv}%</h4>
@@ -140,16 +142,14 @@ getData().then((data) => {
    
     <div class="card-container row"> ${data.map(beerTemplate).join("")}</div>
     `;
- 
 
   function createMenu(data) {
-        let i =0
-        for (i=0; i < data.length; i++){
-        document.getElementById("myMenu").innerHTML +=  `
+    let i = 0;
+    for (i = 0; i < data.length; i++) {
+      document.getElementById("myMenu").innerHTML += `
         <a class="dropdown-item" href="#${data[i].name}">${data[i].name}--${data[i].abv}% ABV</a>
-        `};
-    };
-    createMenu(data);
-      }
-);
-
+        `;
+    }
+  }
+  createMenu(data);
+});
