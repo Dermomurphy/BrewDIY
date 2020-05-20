@@ -63,6 +63,11 @@ h2 {
    
 }
 
+
+.navbar-brand i{
+    color:yellow;  
+}
+
 .jumbotron{
     
     background-image:url('//images.ctfassets.net/b0qgo9rl751g/dyiZ0sZk4zuyvdj1Z4AKY/8cb20d1d0e8198c73fc2c329806b383b/hero-homepage.jpg');
@@ -103,7 +108,7 @@ h2 {
     font-family: 'Poppins', sans-serif;
     background-color: #000;
     font-weight: 800;
-    margin-top: 40px;
+    margin-top: 75px;
     text-transform: uppercase;
 }
 
